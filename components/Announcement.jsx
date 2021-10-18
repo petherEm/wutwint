@@ -10,6 +10,10 @@ const Container = styled.div`
     text-align: center;
     color: teal;
 
+    h5 {
+        color: red;
+    }
+
 `
 
 
@@ -17,6 +21,7 @@ const Container = styled.div`
 const Announcement = () => {
     return (
         <Container>
+            <h5>[We need to inform customer that she/he has been redirected]</h5>
             <h3>Hi! Looks like this is your first international money transfer, we need to verify your identity</h3>
             <h4>We will smoothly guide you through 3 mins verification process powered by </h4>
             <Image src={IDNow} width={280} height={150} />

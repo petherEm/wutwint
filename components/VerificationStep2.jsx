@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import Image from "next/image";
 import Step1 from '../public/step1.jpg'
+import Step2 from '../public/step2.jpg'
+import Step4 from '../public/step4.jpg'
 import { SettingsCellOutlined } from '@material-ui/icons';
 
 const Container = styled.div`
@@ -17,8 +19,8 @@ const VerificationStep2 = () => {
 
     return (
         <Container onClick={toggleImage}>
-            {toggled && <Image src={Step1} width={500} height={750}/>}
-            
+            {toggled && <Image src={Step2} width={500} height={750}/>}
+          
         </Container>
     )
 }

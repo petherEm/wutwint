@@ -9,6 +9,7 @@ import TwintLogo4 from "../public/twint4.png";
 
 
 const Container = styled.div`
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;

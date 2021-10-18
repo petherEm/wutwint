@@ -58,7 +58,9 @@ const SendMoney1 = () => {
             <Container>
                 <Wrapper>
                     <TopDescription>
-                        Send Money Your Way with Western
+                        Welcome Piotr, 
+                        <br/>
+                        Send Money Your Way with Western Union
                     </TopDescription>
                     <LittleDesc>Easy, Fast, Reliable </LittleDesc>
                     

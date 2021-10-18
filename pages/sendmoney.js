@@ -10,9 +10,11 @@ import TwintLogo3 from "../public/twint3.png";
 import WU from "../public/WU.png";
 import VerificationStep1 from "../components/VerificationStep1";
 import VerificationStep2 from "../components/VerificationStep2";
+import VerificationStep3 from "../components/VerificationStep3";
 import SendMoney1 from "../components/SendMoney1";
 
 const Container = styled.div`
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +30,7 @@ const ContainerRedirect = styled.div`
 `
 
 const WrapperLeft = styled.div`
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -345,7 +348,32 @@ const SendMoney = () => (
                     <ButtonWrapper>
     
                         <ButtonSpace>
-                            <Button>Next</Button>
+                            <Link href="#instruction2">
+                                <Button>Next</Button>
+                            </Link>
+                        </ButtonSpace>
+                        
+                    </ButtonWrapper>
+                </WrapperLeft>
+            </Container>
+
+            {/* NEXT SCREEN */}
+
+            <Container id="instruction2">
+                <WrapperLeft>
+                    <AppTitle>
+                        <TitleNav><Link href="#IDNow"><ArrowBackIos /></Link></TitleNav>
+                        <Title>WU Verification process</Title>
+                    </AppTitle>
+                    <MainWrapper>
+                        <VerificationStep3 />
+                    </MainWrapper>
+                    <ButtonWrapper>
+    
+                        <ButtonSpace>
+                            <Link href="#SM1">
+                                <Button>Next</Button>
+                            </Link>
                         </ButtonSpace>
                         
                     </ButtonWrapper>
@@ -356,7 +384,7 @@ const SendMoney = () => (
 
             <ContainerRedirect>
                 <WrapperLeftRedirect>
-                        <SendMoney1 />
+                        <SendMoney1 id="#SM1"/>
                         
             
                     
