@@ -60,7 +60,7 @@ const SendMoney1 = () => {
                     <TopDescription>
                         Welcome Piotr, 
                         <br/>
-                        Send Money Your Way with Western Union
+                        Send Money Your Way with TWINT @ Western Union
                     </TopDescription>
                     <LittleDesc>Easy, Fast, Reliable </LittleDesc>
                     
@@ -72,7 +72,7 @@ const SendMoney1 = () => {
                         <Option>United Kingdom</Option>
 
                     </Input>
-                    <Input type="number" placeholder="Amount in CHF">
+                    <Input type="text" placeholder="Amount in CHF">
                         
                     </Input>
                 </Wrapper>

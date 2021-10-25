@@ -18,13 +18,11 @@ const Container = styled.div`
 `
 
 const WrapperLeft = styled.div`
-    flex: 0.7;
     display: flex;
     flex-direction: column;
     /* width: 30vw; */
-    height: 90%;
-    width: 100%;
-    margin-right: 20px;
+    height: 80%;
+    width: 60%;
     border: 1px solid black;
     background-color: #f5f0f0;
 `
@@ -108,18 +106,6 @@ const Button = styled.button`
     cursor: pointer;
 `
 
-const WrapperRight = styled.div`
-    flex: 1.4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 30vw; */
-    height: 90%;
-    width: 100%;
-    /* background-color: #eee121; */
-    border: 1px solid black;
-
-`
 
 const Index = () => (
 
@@ -161,9 +147,7 @@ const Index = () => (
                     </ButtonWrapper>
                     
                 </WrapperLeft>
-                <WrapperRight>
-                    <h1>Wrapper 2</h1>
-                </WrapperRight>
+                
             </Container>
             
         </Layout>
